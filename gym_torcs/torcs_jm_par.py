@@ -594,6 +594,8 @@ if __name__ == "__main__":
     ]
     file_amount = len(xml_files)
 
+    print("Player 1 is running also, Zobros is back!!!")
+
     C = Client(p=3001)
     for step in range(C.maxSteps, 0, -1):
         C.get_servers_input()
